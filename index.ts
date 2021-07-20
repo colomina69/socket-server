@@ -4,7 +4,10 @@ import router from './routes/router';
 import bodyParser from 'body-parser'
 import express from 'express';
 import cors from 'cors';
-const server=new Server();
+
+
+
+const server=Server.instance;
 
 
 
